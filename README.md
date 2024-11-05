@@ -1,16 +1,11 @@
-# perpus
 
-A new Flutter project.
+aplikasi perpustakaan sederhana. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, mengedit, dan menghapus buku dalam perpustakaan kecil.
 
-## Getting Started
+Fitur Utama:
+-Daftar Buku: Buku-buku ditampilkan dalam bentuk grid, lengkap dengan gambar sampul, judul, pengarang, penerbit, deskripsi, dan jumlah stok.
+-Tambah Buku: Pengguna bisa menambahkan buku baru dengan mengisi formulir berisi detail buku.
+-Edit Buku: Pengguna dapat mengubah informasi buku yang sudah ada.
+Hapus Buku: Pengguna bisa menghapus buku dari daftar dengan menekan lama pada buku yang ingin dihapus.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Cara Kerja:
+Aplikasi menggunakan fungsi CRUD (Create, Read, Update, Delete) sederhana untuk mengelola data buku. Setiap perubahan data langsung ditampilkan dalam daftar buku.
